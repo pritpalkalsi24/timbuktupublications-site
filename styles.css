@@ -123,9 +123,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;margin:0}
 .site-footer .follow{display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px;padding-block:20px 44px;margin-bottom:32px;border-bottom:1px solid var(--line)}
 .follow-label{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink);margin:0}
 .follow-links{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
-.follow-links a{display:inline-flex;align-items:center;gap:12px;min-height:60px;padding:0 28px;background:var(--accent);color:#fff;font-family:var(--sans);font-weight:700;font-size:18px;text-decoration:none;min-width:200px;justify-content:center}
+.follow-links a{display:inline-flex;align-items:center;gap:12px;min-height:60px;padding:0 28px;background:var(--accent);color:#fff;font-family:var(--sans);font-weight:700;font-size:19px;text-decoration:none;min-width:200px;justify-content:center}
 .follow-links a i{font-size:26px}
-.follow-links a:hover{background:var(--accent-dark);color:#fff}
+.follow-links a.ig{background:linear-gradient(45deg,#833AB4,#C13584 55%,#E1306C)}
+.follow-links a.yt{background:#FF0000}
+.follow-links a.li{background:#0A66C2}
+.follow-links a:hover{filter:brightness(.88);color:#fff}
 @media (max-width:640px){.follow-links{flex-direction:column;align-items:stretch;width:100%}.follow-label{font-size:26px}}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 20px;align-content:flex-start}
 .site-footer nav a{color:#444;padding:10px 0;min-height:44px;display:inline-block}
