@@ -120,8 +120,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;margin:0}
 .site-footer{border-top:1px solid var(--ink);padding-block:36px;font-family:var(--sans);font-size:13px;color:#444}
 .site-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px}
 .site-footer p{margin:0 0 6px}
-.site-footer .social{display:flex;flex-wrap:wrap;gap:0 18px;margin-top:10px}
-.site-footer .social a{color:#141414;font-weight:700;padding:10px 0;min-height:44px;display:inline-block}
+.site-footer .follow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;padding-bottom:28px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.follow-label{font-family:var(--serif);font-size:24px;color:var(--ink)}
+.follow-links{display:flex;flex-wrap:wrap;gap:12px}
+.follow-links a{display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border:1.5px solid var(--accent);color:var(--accent);font-family:var(--sans);font-weight:700;font-size:15px;text-decoration:none}
+.follow-links a:hover{background:var(--accent);color:#fff}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:0 20px;align-content:flex-start}
 .site-footer nav a{color:#444;padding:10px 0;min-height:44px;display:inline-block}
 
